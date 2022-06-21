@@ -14,7 +14,7 @@ jobs:
         fail-fast: false
         matrix:
           files:
-            - "readme.md"
+            - "README.md"
       runs-on: ubuntu-latest
       steps:
         - name: "checkout repo"
